@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    flex-direction: column;;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: blanchedalmond;
+    color: brown;
+    font-family: tahoma;
+    font-size: 14px;
+    
+}
+
+
+.main-nav {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .8rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:blanchedalmond;
+}
+
+.main-nav li {float: left;}
+
+.main-nav li a {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: brown;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+}
+.logo  {
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+    background-color: blanchedalmond;
+    color: brown;
+    text-align: left;
+    ;
+}
+
+.header  {
+    display: block;
+    background-color:rgb(244, 222, 188);
+    color: brown;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    
+}
