@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+  }
+
 body {
     display: flex;
     flex-direction: column;;
@@ -11,8 +15,15 @@ body {
     
 }
 
+nav {
+    display: flex;
+    background-color: blanchedalmond;
+}
 
 .main-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: .8rem;
     list-style-type: none;
@@ -44,7 +55,7 @@ body {
     ;
 }
 
-.header  {
+.header {   
     display: block;
     background-color:rgb(244, 222, 188);
     color: brown;
@@ -54,3 +65,147 @@ body {
     font-weight: bolder;
     
 }
+
+.header card {
+    display: flex;
+    background-color:rgb(244, 222, 188);
+    color: brown;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  aside {
+   
+    text-align: center;
+    font-size: large;
+    flex: 20%;
+    background-color: #d1d9cc;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+  
+  section {
+    flex: 70%;
+    display: flex;
+    flex-direction: column;
+    background-color: blanchedalmond;
+    padding: 20px;
+  }
+  
+  .projects {
+
+    background-color: almond;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  p {
+
+    background-color: almond;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 10px;
+    flex: 0 0 400px;
+  }
+
+  .card p {
+    text-align: center;
+  }
+
+   footer {
+    float: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    background: rgba(167, 43, 43, 0.674);
+    color: blanchedalmond;
+  } 
+
+  h3 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.2;
+    color:antiquewhite;
+  }
+
+.contact-info li {
+    float: center;
+} 
+
+
+.contact-info li a {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    text-align: center;
+    padding: 5px 6px;
+    color: blanchedalmond;
+
+  }
+  
+  /* Image Placeholders */
+   .sample-img {
+    background-color: #fff;
+    width: 100%;
+    padding: 20px;
+    height: 200px;
+    border: 1px solid black; 
+  } 
+  
+  /* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
+  
+  /* Tablets - header changes color 
+  @media screen and (max-width: 992px) {
+    header {
+      display: flex;
+      flex-direction: column;
+
+     
+    }
+  }
+  
+   Large smartphones - navbar changes color 
+  @media screen and (max-width: 768px) {
+    nav {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+  /* Small smartphones - image placeholders change color */
+ /* @media screen and (max-width: 576px) {
+    .sample-img {
+      background-color: #8ac4ff;
+      flex-direction: column;
+    }
+  /* } */
+
+  
+  
+  
